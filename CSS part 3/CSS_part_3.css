@@ -1,0 +1,33 @@
+.first para, .second para{
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    background-color: aqua;
+    /* border-width: 1px;
+    border-style :solid;
+    border-color: black; */
+    border:  black solid 3px;
+    border-radius: 10px;
+    border-left-color: red;
+    padding: 5px;
+    transition: 0.3s ease;
+    display:inline-block;
+}
+
+
+button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+    transition: 0.3s ease;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button:hover{
+    padding: 12px 12px;
+}
+button:active{
+    background-color: rgb(109, 30, 30);
+}
