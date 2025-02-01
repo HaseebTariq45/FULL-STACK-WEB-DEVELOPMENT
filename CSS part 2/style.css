@@ -1,0 +1,105 @@
+*{
+  font-family: 'Courier New';
+  background-color: wheat;
+  
+}
+h1{
+  color: #b92b27
+}
+p{
+  color: #b92b27;
+  transition: 0.5s ease;
+}
+p:hover{
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.login-signup{
+  background-color: #b92b27;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+   
+  cursor: pointer;
+  transition: 1.3s ease;
+
+  
+}
+.login-signup:hover{
+  background-color: #3b1616;
+  padding: 12px 12px;
+  border-radius: 10px;
+}
+.login-signup:active{
+  transition: 0ms;
+  background-color: #b92b27;
+  color: white;
+}
+.upvote{
+  background-color: limegreen;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.5s ease-in-out;
+}
+.upvote:hover{
+  background-color: rgba(0, 128, 0, 0.718);
+  padding: 12px 12px;
+  border-radius: 10px;
+}
+.upvote:active{
+  transition: 0ms;
+  background-color: #b92b27;
+  color: white;
+}
+.answer{
+  background-color: limegreen;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+.answer:hover{
+  background-color: rgba(0, 128, 0, 0.718);
+  padding: 12px 12px;
+  border-radius: 10px;
+  
+}
+.answer:active{
+  transition: 0ms;
+  background-color: #b92b27;
+  color: white;
+}
+.input{
+  background-color: wheat;
+  border-radius: 8px;
+  transition: 1s ease-in-out;
+  color: #b92b27;
+}
+.input:hover{
+  background-color: #f0f0f0;
+  
+}
+h3{
+  text-decoration: underline;
+}
+h3:hover{
+  text-decoration: none;
+}
+input[type="radio"]:checked + label{
+  color: #b92b27;
+  font-weight:800;
+  transition: 0.5s ease;
+}
+
+.post:nth-of-type(odd){
+  color: red;
+}
