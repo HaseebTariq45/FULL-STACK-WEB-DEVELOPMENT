@@ -1,0 +1,27 @@
+/* 
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border: none;
+    margin: 5px;
+    background-color: red;
+    transition:.7s ease-in-out;
+    margin: 0 auto;
+    box-shadow: 2px 2px 100px rgb(0, 0, 0);
+}
+.inner:hover{
+    transform: rotate(180deg);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+  */
+  div
+  {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(spidey.png);
+    background-size: cover;
+  }
