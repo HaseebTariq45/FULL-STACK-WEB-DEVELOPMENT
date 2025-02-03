@@ -32,3 +32,12 @@
     top: 100px;
     border-radius: 50%;
 }
+#mouth{
+    height: 25px;
+    width: 60px;
+    background-color: brown;
+    position: absolute;
+    top: 140px;
+    left: 104px;
+    border-radius: 0px 0px 15px 15px;
+}
