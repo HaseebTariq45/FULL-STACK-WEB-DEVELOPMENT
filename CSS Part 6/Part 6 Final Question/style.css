@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.nigga {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px black;
+    transition: 0.5s ease-in-out;
+}
+.nigga:hover{
+    width: 280px;
+    height: 280px;
+}
+
+.caption {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+}
+.back-button:hover{
+    padding: 12px 12px;
+    background-color: #e04e2a;
+}
+
+.back-button:active {
+    background-color: #8f341d;
+}
