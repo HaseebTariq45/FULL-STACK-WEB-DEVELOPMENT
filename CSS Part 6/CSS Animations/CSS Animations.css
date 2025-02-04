@@ -1,0 +1,47 @@
+.box{
+    height: 100px;
+    width: 300px;
+
+    animation: box 7s ease-in-out 0s infinite alternate;
+    display: inline-block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes box{
+    /* from{
+        font-size:normal;
+        background-color: yellowgreen;
+        
+    }
+    to{
+        font-size: 50px;
+        background-color: blue;
+        color: white;
+        border-radius: 25px; 
+    } */
+     0%{
+        background-color: red;
+     }
+     17%{
+        background-color: orange;
+     }
+     34%{
+        background-color: yellow;
+     }
+     51%{
+        background-color: green;
+     }
+     68%{
+        background-color: blue;
+     }
+     84%{
+        background-color: indigo;
+     }
+     100%{
+        background-color: violet;
+     }
+
+}
+

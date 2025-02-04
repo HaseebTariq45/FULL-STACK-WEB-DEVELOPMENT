@@ -1,0 +1,25 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (min-width: 400px) and (max-width: 400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 401px){
+    h1{
+        background-color: greenyellow;
+    }
+}
+@media (max-width: 399px){
+    h1{
+        background-color: orange;
+    }
+}
+@media (min-width: 200px) and (max-width: 300px) {
+h1{ 
+        background-color: rgb(255, 0, 255);
+    }
+}
