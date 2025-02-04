@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+#button{
+    text-decoration: none;
+    background-color: red;
+    padding: 8px 8px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+#button:hover{
+    padding: 10px 10px;
+    background-color: rgb(204, 0, 0);
+}
+#button:active{
+    background-color: rgb(116, 10, 10);
+}
