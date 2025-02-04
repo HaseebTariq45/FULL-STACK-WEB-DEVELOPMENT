@@ -1,0 +1,26 @@
+#container{
+    height: fit-content;
+    width: 900px;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 2 2 100px;
+}
+h1
+{
+    text-align: center;
+}
+#container div{
+    flex: 2 2 100px;
+    height:100px;
+    width: 10px;
+    text-align: center;
+    flex: 2 2 100px;
+    color: white;
+}
+#orange{
+    flex: 2 2 100px;
+}
