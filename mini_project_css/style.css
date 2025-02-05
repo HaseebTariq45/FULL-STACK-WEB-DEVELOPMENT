@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins","sans-serif";
+}
+.main_box{
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 800;
+    position: absolute;
+    left: 20px;
+    line-height: 60px;
+    padding-top: 2px;
+}
+
+.sidebar_menu{
+    position: fixed;
+    left: -400px;
+    height: 100vh;
+    width: 300px;
+
+    background-color: rgba(128, 128, 128,0.1);
+
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 30px 30px 0px ;
+    transition: 0.5s ease-in-out;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100vh;
+    line-height: 60px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 05);
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sidebar_menu .btn_two{
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    line-height: 60px;
+    transition: 0.5s ease;
+    
+}
+.sidebar_menu .btn_two:hover{
+    opacity: 100%;
+    font-size: 35px;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 80px;
+}
+.sidebar_menu .menu li{
+        margin-top: 6px;
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0) ;
+        
+        border-radius: 0px 25px 25px 0px ;
+        transition: 0.25s ease;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 05);
+    
+
+}
+.sidebar_menu .menu li i,a{
+    font-size:medium;
+    transition: 0.5s ease;
+}
+.sidebar_menu .menu li i,a:hover{
+    font-size:large;
+}
+.sidebar_menu .menu li a:active{
+    transition: 0.1s ease-in-out;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.sidebar_menu .menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px ;
+}
+
+.social_media a{
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 88vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 05);
+    padding: 10px 12px;
+    border-radius: 15px;
+    margin: 10px;
+    left: 18px;
+    
+    transition: 0.6s ease-in-out;
+}
+
+.social_media a:hover
+{
+    transition: 0.6s ease-in-out;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.social_media a:active{
+    transition: 0.1s ease-in-out;
+    color: rgba(255, 255, 255, 0.5);
+}
+#check{
+    display: none;
+}
+#check:checked~.sidebar_menu{
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+
+    background-color: rgba(128, 128, 128,0.3);
+
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 0px 30px 30px 0px ;
+}
+#check:checked ~ .btn_one {
+    opacity: 0;
+}
+#check:not(:checked) ~ .btn_one {
+    opacity: 1;
+    transition: opacity 0.5s ease .4s, visibility 0s .5s;
+
+
+}
