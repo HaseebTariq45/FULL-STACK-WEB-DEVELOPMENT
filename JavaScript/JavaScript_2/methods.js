@@ -110,3 +110,63 @@
 //     console.log(i);
 // }
 
+// const student = {
+//     age: 20,
+//     name :'haseeb',
+//     marks:94.6,
+// }
+// console.log(student["age"]);
+// console.log(student.name);
+// student.name = "Don";
+// console.log(student);
+// delete student.age;
+// console.log(student);
+
+// post = {
+//     username : "@haseeb_awan45",
+//     content : "First post",
+// }
+// console.log(post);
+
+// console.log(Math.pow(2,5));
+// console.log(Math.floor(5.65));
+// console.log(Math.ceil(5.1));
+// num  = Math.random()*100;
+// console.log(Math.ceil(num));
+
+// function add(){
+//     num1 = 5;
+//     num2 = 2;
+//     sum = num1 +  num2;
+//     console.log(sum);
+// }
+
+
+// add();
+
+// function add(num1, num2){
+    
+//     sum = num1 +  num2;
+//     console.log(sum);
+// }
+
+// add(2,2);
+// function roll(){
+    
+    
+//     console.log(Math.floor(Math.random()*6+1));
+// }
+
+// roll();
+// n=5;
+// for(i=0; i<10; i++)
+// {
+//     console.log(n);
+//     n+=5;
+// }
+
+let sum = function(a,b){
+    return a+b;
+}
+
+console.log(sum(2,3));
