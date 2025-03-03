@@ -165,8 +165,121 @@
 //     n+=5;
 // }
 
-let sum = function(a,b){
-    return a+b;
-}
+// let sum = function(a,b){
+//     return a+b;
+// }
 
-console.log(sum(2,3));
+// console.log(sum(2,3));
+
+// console.log(a);
+// try{
+//     console.log(a);
+// }
+// catch(err)
+// {
+//     console.log("a not found");
+    
+// }
+
+// setTimeout(() => {
+//     console.log("Haseeb");
+// }, 2000);
+
+// setTimeout(() => {
+//     console.log("Tariq");
+// }, 4000);
+
+// setInterval(() => {
+//     console.log("Tariq");
+// }, 1000); 
+
+// square = (n)=> {
+//     console.log(n*n);
+    
+// }
+
+// square(5);
+
+// setInterval(() => {
+//     console.log("Tariq");
+// }, 1000);
+
+// setTimeout(() => {
+//     setInterval(() => {
+//         console.log("Tariq");
+//     }, 1000);
+// }, 10000);
+
+// setTimeout();
+
+// let id = setInterval(() => {
+//     console.log("Hello World!");
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+//     console.log("F");
+// }, 10000);
+
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let print = function (el){
+//     console.log(el);
+// }
+
+// arr.forEach(function (el){ 
+//     console.log(el);
+// });
+
+// arr.forEach( (el) =>{ 
+//     console.log(el);
+// });
+
+// let ans = arr.filter((el)=>{
+//     return el%2==0;
+// });
+
+// console.log(ans);
+
+// let avg = arr.map((el)=>{
+//     return el*2;
+// })
+// console.log(avg);
+// let ans = arr.some((el)=>{
+//     return el%2==0;
+// })
+// console.log(ans);
+// let avg2 = arr.every((el)=>{
+//     return el%2==0;
+// })
+// console.log(avg2);
+// let reduce = arr.reduce((acc,curr)=>{
+//     return acc+curr;
+// },0)
+// console.log(reduce);
+//   even  = arr.every((el)=>{
+//     return el%10==0;
+//   })
+//   console.log(even);
+  
+// min = arr.reduce((acc,curr)=>{
+//     if(acc<curr){
+//         return acc;
+//     }
+//     else{
+//         return curr;
+//     }
+// })
+// console.log(min);
+
+// let sum = function add(a, b=10){
+//     return a+b
+// }
+// console.log(sum(10));
+// console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
+// console.log(Math.random());
+// console.log(Math.floor(Math.random()*100));
+// console.log(Math.ceil(Math.random()*100));
+// console.log(Math.round(Math.random()*100));
