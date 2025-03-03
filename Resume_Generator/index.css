@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .heading p {
-    color: #333;
+    color: rgba(255, 255, 255,0.8);
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -56,7 +56,7 @@ body {
 
 .heading ul li {
     font-size: 14px;
-    color: #2D3436;
+    color: rgba(255, 255, 255,0.8);
     margin-bottom: 5px;
 }
 
@@ -70,7 +70,7 @@ body {
 
 #resume-form {
     width: 90%;
-    background: rgb(232, 233, 234);
+    background: #242729;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px #000000;
@@ -90,17 +90,17 @@ body {
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
-    color: #2D3436;
+    color: #C9C4BD;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #373b3d;
     border-radius: 8px;
     font-size: 16px;
     transition: 0.3s ease-in-out;
-    background-color: white;
+    background-color: #181A1B;
 }
 
 textarea {
