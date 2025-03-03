@@ -102,6 +102,9 @@ input, textarea {
     transition: 0.3s ease-in-out;
     background-color: #181A1B;
 }
+input, placeholder {
+    color: #ff4b2b;
+ }
 
 textarea {
     height: 60px;
