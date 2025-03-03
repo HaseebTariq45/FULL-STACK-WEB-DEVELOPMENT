@@ -1,131 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Haseeb Tariq - Resume</title>
-    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Generator - Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-
-    <h1>Haseeb Tariq</h1>
-    <p>Product Manager Inspired by Innovation</p>
-    <p class="info"> +92303-8775385 |  <a href="#">232506@students.au.edu.pk</a> |  Islamabad, Pakistan</p>
-
-    <hr>
-
-    <h2>SUMMARY</h2>
-    <table>
-        <tr>
-            <td>
-                <p>
-                    Motivated software developer with 3+ years of experience in web development.<br>
-                    Skilled in React, Node.js, and building high-quality websites and applications.<br>
-                    Detail-oriented, adaptable, and passionate about innovative solutions.
-                </p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>PROFESSIONAL EXPERIENCE</h2>
-
-    <table>
-        <tr>
-            <td><strong>Position</strong></td>
-            <td><strong>Company</strong></td>
-            <td><strong>Location</strong></td>
-            <td><strong>Dates</strong></td>
-            <td><strong>Responsibilities</strong></td>
-        </tr>
-        <tr>
-            <td>Software Developer</td>
-            <td>Tech Company</td>
-            <td>Islamabad, Pakistan</td>
-            <td>January 2025 - Present</td>
-            <td>
-                <ul>
-                    <li>Developed and maintained websites and web applications using React and Node.js.</li>
-                    <li>Collaborated with an Agile team to deliver features and bug fixes on time.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Frontend Developer Intern</td>
-            <td>Startup Inc.</td>
-            <td>Islamabad, Pakistan</td>
-            <td>June 2020 - December 2020</td>
-            <td>
-                <ul>
-                    <li>Assisted in building responsive user interfaces using HTML, CSS, and JavaScript.</li>
-                    <li>Gained experience working with version control tools like Git.</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>EDUCATION</h2>
-    <table>
-        <tr>
-            <td><strong>Degree</strong></td>
-            <td><strong>Institution</strong></td>
-            <td><strong>Duration</strong></td>
-        </tr>
-        <tr>
-            <td>Bachelor of Science in Computer Science - Evening Department</td>
-            <td>Air University</td>
-            <td>2023 - 2027</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>KEY ACHIEVEMENTS</h2>
-    <table>
-        <tr>
-            <td><strong>Achievement</strong></td>
-            <td><strong>Description</strong></td>
-        </tr>
-        <tr>
-            <td>Cost Saving of $2M</td>
-            <td>Through efficient project management and teamwork, helped optimize processes, saving costs.</td>
-        </tr>
-        <tr>
-            <td>Identified Opportunities</td>
-            <td>Discovered new clients and negotiated over $5M in partnership and product deals.</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>TECHNICAL SKILLS</h2>
-    <table>
-        <tr>
-            <td>Scrum</td>
-            <td>Product Development</td>
-            <td>R, Python</td>
-        </tr>
-        <tr>
-            <td>Product Quality</td>
-            <td>Data Analysis</td>
-            <td>Product Design</td>
-        </tr>
-        <tr>
-            <td>C++</td>
-            <td>SolidWorks</td>
-            <td></td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <p>Thank you for viewing my resume! <br><br>
-        <a class="login-btn" href="form.html">Go Back</a>
-    </p>
-    
-
+    <div class="container">
+        <div class="heading">
+            <h1>AI-Powered Resume Generator – Craft Your Perfect Resume in Minutes!</h1>
+            <p>Fill out the details below, and our AI will generate a professional, well-structured resume tailored for your needs.</p>
+            <ul>
+                <li>✅ Ensure accuracy for better results.</li>
+                <li>✅ Use clear and concise language.</li>
+                <li>✅ Include key achievements to stand out.</li>
+            </ul>
+        </div>
+        <div class="content">
+            <form action="index.html" method="get" id="resume-form">
+                <div class="input-group">
+                    <label for="Name">Full Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="Enter your full name" pattern="[a-zA-Z\s]+" required>
+                </div>
+                <div class="input-group">
+                    <label for="Contact">Phone Number</label>
+                    <input type="text" name="Contact" id="Contact" placeholder="Enter your phone number" pattern="[0-9]{11}" required>
+                </div>
+                <div class="input-group">
+                    <label for="Email">Email Address</label>
+                    <input type="email" name="Email" id="Email" placeholder="Enter your email address" required>
+                </div>
+                <div class="input-group">
+                    <label for="Address">Residential Address</label>
+                    <textarea name="Address" id="Address" placeholder="Enter your complete address" rows="3"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="Summary">Professional Summary</label>
+                    <textarea name="Summary" id="Summary" placeholder="Summarize your skills and experience" rows="4"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="KeyAchievements">Key Achievements</label>
+                    <textarea name="KeyAchievements" id="KeyAchievements" placeholder="Highlight major career achievements" rows="4"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="Education">Educational Background</label>
+                    <textarea name="Education" id="Education" placeholder="List your degrees, diplomas, and certifications" rows="4"></textarea>
+                </div>
+                <button type="submit" class="login-btn">Generate Resume</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
