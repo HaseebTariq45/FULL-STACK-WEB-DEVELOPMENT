@@ -1,16 +1,13 @@
-
 body {
-   
     margin: 40px;
     padding: 20px;
-   
-    color: rgb(51, 51, 51);
+    background-color: #121212;
+    color: rgb(230, 230, 230);
 }
-
 
 h1 {
     font-size: 32px;
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
 }
@@ -18,51 +15,53 @@ h1 {
 p {
     text-align: center;
     font-size: 16px;
-}
-p a{
-    text-decoration: none;
+    color: rgb(200, 200, 200);
 }
 
-td strong{
-    color: rgb(255, 75, 43);;
+p a {
+    text-decoration: none;
+    color: rgb(255, 128, 96);
 }
+
+td strong {
+    color: rgb(255, 128, 96);
+}
+
 .info {
     font-size: 14px;
-    color: rgb(85, 85, 85);
+    color: rgb(180, 180, 180);
 }
 
-
 h2 {
-    background-color: rgb(255, 75, 43);
+    background-color: #ff5733;
     color: white;
     padding: 10px;
     border-radius: 5px;
     text-align: left;
 }
 
-
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-    background: white;
+    background: #1e1e1e;
 }
 
 td, th {
-    border: 1px solid rgb(221, 221, 221);
+    border: 1px solid rgb(85, 85, 85);
     padding: 10px;
     text-align: left;
+    color: rgb(230, 230, 230);
 }
 
 th {
-    background-color: #444;
+    background-color: #333;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: rgb(249, 249, 249);
+    background-color: #2a2a2a;
 }
-
 
 ul {
     margin: 5px 0;
@@ -73,7 +72,6 @@ li {
     margin: 5px 0;
 }
 
-
 p:last-of-type {
     text-align: center;
     font-weight: bold;
@@ -82,9 +80,9 @@ p:last-of-type {
 
 .login-btn {
     width: 100%;
-    background: linear-gradient(135deg, #ff4b2b, #4e0f03);
+    background: linear-gradient(135deg, #ff5733, #8b2500);
     color: white;
-    padding: 12px 40px 12px 40px;
+    padding: 12px 40px;
     border: none;
     border-radius: 8px;
     font-size: 18px;
@@ -92,10 +90,9 @@ p:last-of-type {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     text-decoration: none;
-    
 }
 
 .login-btn:hover {
-    background: linear-gradient(135deg, #bb361e, #310a02);
-    padding: 13px 43px 13px 43px;
+    background: linear-gradient(135deg, #cc4422, #661a00);
+    padding: 13px 43px;
 }
